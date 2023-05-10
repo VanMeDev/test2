@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color: rgb(255, 255, 255);
+    background-image:url("./img/wepik23.png");
+    background-color:#595656;
+    background-position: center -250px; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.title-section {
+    margin-bottom: 120px;
+    font-size: 42px;
+    line-height: 64px;
+    letter-spacing: 0.6px;
+    text-align: center;
+    margin-top:24px;
+    background-color: burlywood;
+}
+
+#banner-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.banner {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.banner__header {
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1.6;
+  margin-bottom: 140px;
+  margin-top: -75px;
+  font-family: 'Playfair Display', serif;
+  background-color: burlywood;
+}
+
+.banner-img {
+  width: 100%;
+  max-width: 800px;
+}
+
+.banner-img img {
+  width: 40%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+  
+
+#sale-section {
+    padding: 90px 0;
+}
+/* Форма */
+
+.form-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 30%; 
+    justify-content: center;
+    display: grid;
+    grid-gap: 20px;
+    align-items: flex-start;
+}
+
+.form-title {
+    text-align: center;
+    color:black;
+    padding: 20px;
+}
+
+.form-input {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: black;
+}
+
+.form-submit {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(1, 44, 123);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-submit:hover {
+    background-color: #b8860b;
+}
+
+.form-timer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .form-sent-message {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 20px;
+    color: #000;
+  }
+@media screen and (max-width: 768px) {
+  img{
+    margin-right: -50px;
+    position: absolute;
+  }
+  
+  #banner-section .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #banner-section .banner {
+    text-align: center;
+    order: 2;
+    margin-top: 200px;
+  }
+
+  #banner-section .banner-img {
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 220px;
+    width: 100%;
+    margin: 0 auto; 
+  }
+  .banner-img img {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .form-container{
+    max-width: 80%;
+  }
+  .title-section{
+    margin-top: 214px;
+}
+}
+
