@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dyson</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <section id="banner-section">
+    <div class="container">
+      <div class="banner">
+        <h2 class="banner__header">Отримайте свій Dyson безкоштовно – прибирання ніколи не було таким легким!</h2>
+      </div>
+    </div>
+    <div class="banner-img">
+      <img src="./img/dyson-v15.png" alt="Тут пилосос">
+    </div>
+  </section>
+  <section id="sale-section">
+    <div class="container">
+      <h2 class="title-section">Не втрачай можливість,заповняй просту форму та приймай участь</h2>
+      <div class="rent-wrap">
+      </div>
+    </div>
+        <div class="form-timer-container">
+          <div class="form-container">
+            <form id="contact-form" class="form">
+              <h2 class="form-title">Заповніть форму</h2>
+              <input class="form-input" type="text" name="name" placeholder="Ім'я" required>
+              <input class="form-input" type="email" name="email" placeholder="name@example.com" required>
+              <label class="form-label" for="cleaning-question">Якому прибиранню віддаєте перевагу?</label>
+              <select class="form-input" name="cleaning-question" id="cleaning-question">
+                <option value="general">Генеральне прибирання</option>
+                <option value="regular">Регулярне прибирання</option>
+                <option value="deep">Глубоке прибирання</option>
+                <option value="other">Інше</option>
+              </select>
+              <button class="form-submit" type="submit">Відправити</button>
+            </form>
+          </div>
+    </div>
+  </section>
+  <script src="./js/form.js"></script>
+</main>
+</body>
